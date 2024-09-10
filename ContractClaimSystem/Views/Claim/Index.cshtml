@@ -3,10 +3,14 @@
     ViewData["Title"] = "Submit Claims";
 }
 
-<h2>Submit Your Monthly Claim</h2>
-<form>
-    <label for="claimDetails">Claim Details</label>
-    <textarea id="claimDetails" name="claimDetails"></textarea><br>
-    <button type="submit">Submit Claim</button>
-</form>
+<div class="container">
+    <h2 class="mb-4">Submit Your Monthly Claim</h2>
+    <form>
+        <div class="form-group">
+            <label for="claimDetails">Claim Details</label>
+            <textarea id="claimDetails" name="claimDetails" class="form-control" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Claim</button>
+    </form>
+</div>
 <!------------------------------------------- END OF FILE  -------------------------------------------------->

@@ -3,10 +3,15 @@
     ViewData["Title"] = "Upload Supporting Documents";
 }
 
-<h2>Upload Supporting Documents for Your Claim</h2>
-<form enctype="multipart/form-data">
-    <input type="file" name="document" /><br>
-    <button type="submit">Upload Document</button>
-</form>
+<div class="container">
+    <h2 class="mb-4">Upload Supporting Documents for Your Claim</h2>
+    <form enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="document">Select Document</label>
+            <input type="file" id="document" name="document" class="form-control-file" />
+        </div>
+        <button type="submit" class="btn btn-primary">Upload Document</button>
+    </form>
+</div>
 
 <!------------------------------------------- END OF FILE  -------------------------------------------------->

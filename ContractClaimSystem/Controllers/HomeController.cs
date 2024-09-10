@@ -2,6 +2,8 @@ using ContractClaimSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
+//______________________________________________________________START OF FILE________________________________________________________________//
+
 namespace ContractClaimSystem.Controllers
 {
     public class HomeController : Controller
@@ -30,3 +32,4 @@ namespace ContractClaimSystem.Controllers
         }
     }
 }
+//________________________________________________________________END OF FILE________________________________________________________________//
